@@ -22,6 +22,8 @@ def ensure_rgb(img):
         return bg
     return img.convert("RGB") if img.mode != "RGB" else img
 
+saved_names = set()
+
 for root, _, files in os.walk(input_root):
     rel = os.path.relpath(root, input_root)
     out_dir = os.path.join(output_root, rel) if rel != "." else output_root
@@ -33,6 +35,11 @@ for root, _, files in os.walk(input_root):
         if ext.lower() not in allowed_ext:
             print(f"⏭️ Skipped (non-image): {fname}")
             continue
+
+        if base in saved_names:
+            print(f"⏭️ Skipped duplicate name: {base}")
+            continue
+
         try:
             with Image.open(src) as im:
                 im = ImageOps.exif_transpose(im)
@@ -46,6 +53,9 @@ for root, _, files in os.walk(input_root):
 
                 out_path = os.path.join(out_dir, f"{base}.jpg")
                 im.save(out_path, "JPEG", quality=90, optimize=True, subsampling="medium")
+
+                saved_names.add(base)
                 print(f"✅ Processed: {src} -> {out_path}")
+
         except (UnidentifiedImageError, OSError) as e:
             print(f"⚠️ Error processing {fname}: {e}")
