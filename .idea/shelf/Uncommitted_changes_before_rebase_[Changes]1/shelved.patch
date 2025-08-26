@@ -1,0 +1,17 @@
+Index: .gitattributes
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitattributes b/.gitattributes
+new file mode 100644
+--- /dev/null	(date 1755873473184)
++++ b/.gitattributes	(date 1755873473184)
+@@ -0,0 +1,7 @@
++*.gif filter=lfs diff=lfs merge=lfs -text
++*.webp filter=lfs diff=lfs merge=lfs -text
++*.tiff filter=lfs diff=lfs merge=lfs -text
++*.bmp filter=lfs diff=lfs merge=lfs -text
++*.jpg filter=lfs diff=lfs merge=lfs -text
++*.jpeg filter=lfs diff=lfs merge=lfs -text
++*.png filter=lfs diff=lfs merge=lfs -text
