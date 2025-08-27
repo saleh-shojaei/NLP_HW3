@@ -15,7 +15,7 @@ except ImportError:
     raise SystemExit("Please install requests first:  pip install requests")
 
 # ===== تنظیم مسیرها =====
-AGGREGATED_PATH = "Foods-dataset/aggregated.json"  # فقط از این فایل می‌خوانیم
+AGGREGATED_PATH = "../Foods-dataset/aggregated.json"  # فقط از این فایل می‌خوانیم
 IMAGES_DIR      = "images"           # پوشه‌ی خروجی برای عکس‌ها
 MANIFEST_NAME   = "manifest.json"    # نگاشت ساده: filename -> title
 FETCH_LOG       = "fetch-images.logs"
