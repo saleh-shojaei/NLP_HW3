@@ -118,15 +118,20 @@ class AdvancedRAGSystem:
     def format_context_for_llm(self, query: str, retrieved_docs: List[Dict[str, Any]]) -> str:
         context_parts = []
         
-        context_parts.append("شما یک متخصص آشپزی ایرانی هستید. بر اساس اطلاعات زیر به سوال کاربر پاسخ دهید - دقت کن که سوالات چند گزینه‌ای است و بهترین پاسخ را انتخاب کن:")
+        context_parts.append("شما یک متخصص آشپزی ایرانی هستید. بر اساس اطلاعات زیر به سوال کاربر پاسخ دهید.")
+        context_parts.append("دقت کنید که سوالات چند گزینه‌ای است و باید دقیقاً نام یکی از گزینه‌ها را انتخاب کنید.")
+        context_parts.append("اگر سوال شامل تصویر است، بر اساس محتوای تصویر و اطلاعات موجود پاسخ دهید.")
         context_parts.append(f"\nسوال: {query}")
-        context_parts.append(f"\nاطلاعات مرتبط:")
+        context_parts.append(f"\nاطلاعات مرتبط از پایگاه داده:")
         
         for i, doc in enumerate(retrieved_docs, 1):
             context_parts.append(f"{i}. {doc['title']}")
             if doc['province']:
                 context_parts.append(f"   استان: {doc['province']}")
             context_parts.append(f"   شباهت: {doc['distance']:.4f}")
+        
+        context_parts.append("\nلطفاً پاسخ خود را به صورت یکی از گزینه‌های ارائه شده ارائه دهید.")
+        context_parts.append("اگر مطمئن نیستید، بهترین گزینه را بر اساس اطلاعات موجود انتخاب کنید.")
         
         return "\n".join(context_parts)
     
@@ -140,7 +145,7 @@ class AdvancedRAGSystem:
         }
         
         data = {
-            "model": "gpt-3.5",
+            "model": "gpt-4.1-nano",
             "messages": [
                 {"role": "system", "content": context},
                 {"role": "user", "content": query}
@@ -264,7 +269,7 @@ def main():
     # rag = AdvancedRAGSystem(llm_provider="openai", api_key="your-api-key")
 
     # برای استفاده از Ollama (محلی)
-    rag = AdvancedRAGSystem(llm_provider="openAI", api_key='tpsg-0V0Q8zout546HH63L16zWWxAR5b9MHj')
+    rag = AdvancedRAGSystem(llm_provider="openAI", api_key='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')
     
     # Example queries
     examples = [
