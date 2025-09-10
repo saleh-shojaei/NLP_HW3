@@ -1,4 +1,4 @@
-=== Source: Foods-dataset/aggregated.json (records: 2155) ===
+=== Source: ../Foods-dataset/aggregated.json (records: 2155) ===
 
 - Title: باقلوای اردبیل (id=1)
   images:
@@ -853,7 +853,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2812605399356881751
     · skipped empty URL -> created placeholder: 129_1_گل پالوده یا گل پالدو__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2812605399356881751 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 129_2_گل پالوده یا گل پالدو__images.html
 
 - Title: آش دوغ (id=130)
   images:
@@ -914,7 +914,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3366463818555293475
     · skipped empty URL -> created placeholder: 138_1_قویماق__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3366463818555293475 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 138_2_قویماق__images.html
 
 - Title: قطاب سنتی خلخال (id=139)
   images:
@@ -1005,35 +1005,35 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3356141163494195243
     · skipped empty URL -> created placeholder: 151_1_حلوای اوماج__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3356141163494195243 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 151_2_حلوای اوماج__images.html
 
 - Title: گوکه (id=152)
   images:
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2332646968444856848
     · skipped empty URL -> created placeholder: 152_1_گوکه__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2332646968444856848 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 152_2_گوکه__images.html
 
 - Title: شربت بادرنجبویه و بیدمشک (id=153)
   images:
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3615712846151785119
     · skipped empty URL -> created placeholder: 153_1_شربت بادرنجبویه و بیدمشک__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3615712846151785119 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 153_2_شربت بادرنجبویه و بیدمشک__images.html
 
 - Title: آش اسفناج و گشنیز (id=154)
   images:
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3483026513746797625
     · skipped empty URL -> created placeholder: 154_1_آش اسفناج و گشنیز__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3483026513746797625 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 154_2_آش اسفناج و گشنیز__images.html
 
 - Title: دمی کلم قمری (id=155)
   images:
     • تصویر نهایی: 
     • images: http://s3.picofile.com/file/7541901498/%D9%BE%D9%84%D9%88%DB%8C_%DA%A9%D9%84%D9%85_%D9%82%D9%85%D8%B1%DB%8C1.jpg
     · skipped empty URL -> created placeholder: 155_1_دمی کلم قمری__تصویر نهایی.missing.txt
-    ! download failed: http://s3.picofile.com/file/7541901498/%D9%BE%D9%84%D9%88%DB%8C_%DA%A9%D9%84%D9%85_%D9%82%D9%85%D8%B1%DB%8C1.jpg -> HTTPConnectionPool(host='s3.picofile.com', port=80): Max retries exceeded with url: /file/7541901498/%D9%BE%D9%84%D9%88%DB%8C_%DA%A9%D9%84%D9%85_%D9%82%D9%85%D8%B1%DB%8C1.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002324F137750>, 'Connection to s3.picofile.com timed out. (connect timeout=30)'))
+    + saved: 155_2_دمی کلم قمری__images.jpg
 
 - Title: رشته پلو (id=156)
   images:
@@ -1047,7 +1047,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2912552010733653067
     · skipped empty URL -> created placeholder: 157_1_ترشی میوه__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2912552010733653067 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 157_2_ترشی میوه__images.html
 
 - Title: ترشی هفت بیجار (id=158)
   images:
@@ -1075,7 +1075,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3471646064493456709
     · skipped empty URL -> created placeholder: 161_1_دیشلیق__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3471646064493456709 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 161_2_دیشلیق__images.html
 
 - Title: خورش قورمه سبزی (id=162)
   images:
@@ -1117,42 +1117,42 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3160553845964157850
     · skipped empty URL -> created placeholder: 167_1_کاچی ادویه دار__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3160553845964157850 -> HTTPSConnectionPool(host='lookaside.instagram.com', port=443): Max retries exceeded with url: /seo/google_widget/crawler/?media_id=3160553845964157850 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002324F137250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+    + saved: 167_2_کاچی ادویه دار__images.html
 
 - Title: کاچی زرد (ساده) (id=168)
   images:
     • تصویر نهایی: 
     • images: https://cdn.fararu.com/files/fa/news/1402/1/11/1523234_125.jpg
     · skipped empty URL -> created placeholder: 168_1_کاچی زرد (ساده)__تصویر نهایی.missing.txt
-    ! download failed: https://cdn.fararu.com/files/fa/news/1402/1/11/1523234_125.jpg -> 503 Server Error: Backend fetch failed for url: https://cdn.fararu.com/files/fa/news/1402/1/11/1523234_125.jpg
+    ! download failed: https://cdn.fararu.com/files/fa/news/1402/1/11/1523234_125.jpg -> 404 Client Error: Not Found for url: https://cdn.fararu.com/files/fa/news/1402/1/11/1523234_125.jpg
 
 - Title: حلوای زنجبیلی با روکش شکلاتی - گردویی (id=169)
   images:
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3539418439505467527
     · skipped empty URL -> created placeholder: 169_1_حلوای زنجبیلی با روکش شکلاتی - گردویی__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3539418439505467527 -> HTTPSConnectionPool(host='lookaside.instagram.com', port=443): Max retries exceeded with url: /seo/google_widget/crawler/?media_id=3539418439505467527 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002324F136AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+    + saved: 169_2_حلوای زنجبیلی با روکش شکلاتی - گردویی__images.html
 
 - Title: حلوا کفگیری - بادامی (کفگیر تره یی) (id=170)
   images:
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3607095060936744757
     · skipped empty URL -> created placeholder: 170_1_حلوا کفگیری - بادامی (کفگیر تره یی)__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3607095060936744757 -> HTTPSConnectionPool(host='lookaside.instagram.com', port=443): Max retries exceeded with url: /seo/google_widget/crawler/?media_id=3607095060936744757 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002324F2A47D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+    + saved: 170_2_حلوا کفگیری - بادامی (کفگیر تره یی)__images.html
 
 - Title: حلوای سه رنگ (id=171)
   images:
     • تصویر نهایی: 
     • images: https://i.ytimg.com/vi/6OJSvPEAG00/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAr1MvXFANuDSLO8AEIKIA6M2OdDg
     · skipped empty URL -> created placeholder: 171_1_حلوای سه رنگ__تصویر نهایی.missing.txt
-    ! download failed: https://i.ytimg.com/vi/6OJSvPEAG00/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAr1MvXFANuDSLO8AEIKIA6M2OdDg -> HTTPSConnectionPool(host='i.ytimg.com', port=443): Max retries exceeded with url: /vi/6OJSvPEAG00/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAr1MvXFANuDSLO8AEIKIA6M2OdDg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002324F136AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+    + saved: 171_2_حلوای سه رنگ__images.jpg
 
 - Title: بورانی کدو (id=172)
   images:
     • تصویر نهایی: 
     • images: https://i.ytimg.com/vi/N1MULUkb6Xc/maxresdefault.jpg
     · skipped empty URL -> created placeholder: 172_1_بورانی کدو__تصویر نهایی.missing.txt
-    ! download failed: https://i.ytimg.com/vi/N1MULUkb6Xc/maxresdefault.jpg -> HTTPSConnectionPool(host='i.ytimg.com', port=443): Max retries exceeded with url: /vi/N1MULUkb6Xc/maxresdefault.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002324F136710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+    + saved: 172_2_بورانی کدو__images.jpg
 
 - Title: بورانی لوبیا سبز (id=173)
   images:
@@ -1173,7 +1173,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3208974065524238297
     · skipped empty URL -> created placeholder: 175_1_دلمه فلفل و بادمجان تبریزی__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3208974065524238297 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 175_2_دلمه فلفل و بادمجان تبریزی__images.html
 
 - Title: نرگسی اسفناج (id=176)
   images:
@@ -1201,7 +1201,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3528069534968309010
     · skipped empty URL -> created placeholder: 179_1_خاگینه هل و پسته__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3528069534968309010 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 179_2_خاگینه هل و پسته__images.html
 
 - Title: کیک خاگینه (id=180)
   images:
@@ -1222,7 +1222,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3233806399112947364
     · skipped empty URL -> created placeholder: 182_1_نان نارگیلی تبریز__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3233806399112947364 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 182_2_نان نارگیلی تبریز__images.html
 
 - Title: نان زنجبیلی تبریز (id=183)
   images:
@@ -1236,7 +1236,7 @@
     • تصویر نهایی: 
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2843969518982912383
     · skipped empty URL -> created placeholder: 184_1_قرابیه گردویی__تصویر نهایی.missing.txt
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2843969518982912383 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 184_2_قرابیه گردویی__images.html
 
 - Title: قرابیه بادامی (id=185)
   images:
@@ -1277,7 +1277,7 @@
 - Title: کوکَه (id=191)
   images:
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2570386857229642089
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2570386857229642089 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 191_1_کوکَه__images.html
 
 - Title: بورش (id=192)
   images:
@@ -1307,7 +1307,7 @@
 - Title: اشپیل شور (id=197)
   images:
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3096945994918719010
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3096945994918719010 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 197_1_اشپیل شور__images.html
 
 - Title: آش گوجه سبز گیلانی (id=198)
   images:
@@ -1327,7 +1327,7 @@
 - Title: پلا کباب رشتی (id=201)
   images:
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3048466895958189457
-    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3048466895958189457 -> 404 Client Error: Not Found for url: https://i.instagram.com/accounts/login/?next=/seo/google_widget/crawler/
+    + saved: 201_1_پلا کباب رشتی__images.html
 
 - Title: تابه بریان (id=202)
   images:
@@ -1342,7 +1342,7 @@
 - Title: چخرتمه بادکوبه ای (id=204)
   images:
     • images: https://honarfa.ir/wp-content/uploads/2019/07/chekhertemeh.jpg
-    ! download failed: https://honarfa.ir/wp-content/uploads/2019/07/chekhertemeh.jpg -> HTTPSConnectionPool(host='honarfa.ir', port=443): Max retries exceeded with url: /wp-content/uploads/2019/07/chekhertemeh.jpg (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002324F137D90>: Failed to resolve 'honarfa.ir' ([Errno 11002] getaddrinfo failed)"))
+    + saved: 204_1_چخرتمه بادکوبه ای__images.jpg
 
 - Title: خُـــــلابی (id=205)
   images:
@@ -1377,7 +1377,7 @@
 - Title: شامی رشتی (id=211)
   images:
     • images: https://blog.okcs.com/wp-content/uploads/2023/07/shami-rashti.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/07/shami-rashti.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/07/shami-rashti.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/07/shami-rashti.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/07/shami-rashti.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: شیرین پلو (id=212)
   images:
@@ -1447,7 +1447,7 @@
 - Title: مرغانه پلا (id=225)
   images:
     • images: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2801088889084810350
-    + saved: 225_1_مرغانه پلا__images.html
+    ! download failed: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2801088889084810350 -> 403 Client Error: Forbidden for url: https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2801088889084810350
 
 - Title: میرزا قاسمی (id=226)
   images:
@@ -1512,7 +1512,7 @@
 - Title: کوکوسبزی با ترگ خانه گان (id=238)
   images:
     • images: http://bijaregarrous1.persiangig.com/image/%D8%AA%D8%B1%DA%AF%20%D8%AE%D8%A7%D9%86%DA%AF%D8%A7%D9%86%20%DA%A9%D9%88%DA%86%DA%A9.jpg
-    ! download failed: http://bijaregarrous1.persiangig.com/image/%D8%AA%D8%B1%DA%AF%20%D8%AE%D8%A7%D9%86%DA%AF%D8%A7%D9%86%20%DA%A9%D9%88%DA%86%DA%A9.jpg -> HTTPConnectionPool(host='bijaregarrous1.persiangig.com', port=80): Max retries exceeded with url: /image/%D8%AA%D8%B1%DA%AF%20%D8%AE%D8%A7%D9%86%DA%AF%D8%A7%D9%86%20%DA%A9%D9%88%DA%86%DA%A9.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002324F1D17B0>, 'Connection to bijaregarrous1.persiangig.com timed out. (connect timeout=30)'))
+    ! download failed: http://bijaregarrous1.persiangig.com/image/%D8%AA%D8%B1%DA%AF%20%D8%AE%D8%A7%D9%86%DA%AF%D8%A7%D9%86%20%DA%A9%D9%88%DA%86%DA%A9.jpg -> HTTPConnectionPool(host='bijaregarrous1.persiangig.com', port=80): Read timed out. (read timeout=30)
 
 - Title: قایرمه (کوفته کنگر) (id=239)
   images:
@@ -2527,7 +2527,7 @@
 - Title: آش اشکنه اراکی (اوگرمه) (id=467)
   images:
     • تصویر نهائی: https://blog.okcs.com/wp-content/uploads/2024/11/1558178715_P6hQ1.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/11/1558178715_P6hQ1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/11/1558178715_P6hQ1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/11/1558178715_P6hQ1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/11/1558178715_P6hQ1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: آش ترخینه دوغ (id=468)
   images:
@@ -3402,7 +3402,7 @@
 - Title: کتلت ماهی مرکب خساک (id=642)
   images:
     • تصویر نهایی: http://tahereh.persiangig.com/my-blog/ashpazbashi/ghaza/mahi.meygoo/khasak/20111224762%20copy.jpg
-    ! download failed: http://tahereh.persiangig.com/my-blog/ashpazbashi/ghaza/mahi.meygoo/khasak/20111224762%20copy.jpg -> HTTPConnectionPool(host='tahereh.persiangig.com', port=80): Max retries exceeded with url: /my-blog/ashpazbashi/ghaza/mahi.meygoo/khasak/20111224762%20copy.jpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002324F1D1D00>, 'Connection to tahereh.persiangig.com timed out. (connect timeout=30)'))
+    ! download failed: http://tahereh.persiangig.com/my-blog/ashpazbashi/ghaza/mahi.meygoo/khasak/20111224762%20copy.jpg -> HTTPConnectionPool(host='tahereh.persiangig.com', port=80): Read timed out. (read timeout=30)
 
 - Title: حلوای سردوبندو بوشهر (id=643)
   images:
@@ -3927,7 +3927,7 @@
 - Title: کلوچه محلی بندرعباس (id=747)
   images:
     • تصویر نهایی: https://aradbranding.com/fa/uploads/topics/mceu_8687588431709198973298.webp
-    ! download failed: https://aradbranding.com/fa/uploads/topics/mceu_8687588431709198973298.webp -> HTTPSConnectionPool(host='s3.eu-1.blufs.ir', port=443): Max retries exceeded with url: /aradbranding-fa-uploads/topics/mceu_8687588431709198973298.webp (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000002324F2A56D0>, 'Connection to s3.eu-1.blufs.ir timed out. (connect timeout=30)'))
+    ! download failed: https://aradbranding.com/fa/uploads/topics/mceu_8687588431709198973298.webp -> HTTPSConnectionPool(host='s3.eu-1.blufs.ir', port=443): Read timed out. (read timeout=30)
 
 - Title: کلوچه خرمایی (id=748)
   images:
@@ -6453,7 +6453,7 @@
     • 2 مرحله: https://cookpad.com//ir/step_attachment/images/f5cc7cb234b2d2ae?image_region_id=56
     + saved: 983_1_اش ماست بنه بزه اش__تصویر نهایی.jpg
     + saved: 983_2_اش ماست بنه بزه اش__1 مرحله.webp
-    + saved: 983_3_اش ماست بنه بزه اش__2 مرحله.webp
+    ! download failed: https://cookpad.com//ir/step_attachment/images/f5cc7cb234b2d2ae?image_region_id=56 -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
 
 - Title: شیرینی ابدندون (id=984)
   images:
@@ -6461,9 +6461,9 @@
     • 1 مرحله: https://cookpad.com//ir/step_attachment/images/53c8015b84a9cf28?image_region_id=56
     • 2 مرحله: https://cookpad.com//ir/step_attachment/images/92349705019fa595?image_region_id=56
     • 3 مرحله: 
-    + saved: 984_1_شیرینی ابدندون__تصویر نهایی.jpg
-    + saved: 984_2_شیرینی ابدندون__1 مرحله.webp
-    + saved: 984_3_شیرینی ابدندون__2 مرحله.webp
+    ! download failed: https://img-global.cpcdn.com/recipes/239bba29f9fbf98b/680x964cq70/%D8%B4%DB%8C%D8%B1%DB%8C%D9%86%DB%8C-%D8%A2%D8%A8%D8%AF%D9%86%D8%AF%D9%88%D9%86-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D8%B5%D9%84%DB%8C-%D8%B9%DA%A9%D8%B3.jpg -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+    ! download failed: https://cookpad.com//ir/step_attachment/images/53c8015b84a9cf28?image_region_id=56 -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+    ! download failed: https://cookpad.com//ir/step_attachment/images/92349705019fa595?image_region_id=56 -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
     · skipped empty URL -> created placeholder: 984_4_شیرینی ابدندون__3 مرحله.missing.txt
 
 - Title: پلو کدو حلوایی (id=985)
@@ -6473,10 +6473,10 @@
     • 2 مرحله: https://cookpad.com//ir/step_attachment/images/2caaf066efbcd62b?image_region_id=56
     • 3 مرحله: https://cookpad.com//ir/step_attachment/images/c921d4dfb5fea494?image_region_id=56
     • 4 مرحله: https://cookpad.com//ir/step_attachment/images/60b2dfe803e279b3?image_region_id=56
-    + saved: 985_1_پلو کدو حلوایی__تصویر نهایی.jpg
-    + saved: 985_2_پلو کدو حلوایی__1 مرحله.webp
-    + saved: 985_3_پلو کدو حلوایی__2 مرحله.webp
-    + saved: 985_4_پلو کدو حلوایی__3 مرحله.webp
+    ! download failed: https://img-global.cpcdn.com/recipes/08cd883d05c5b2e3/680x964f0.500982_0.5_1.0q70/%D9%BE%D9%84%D9%88-%DA%A9%D8%AF%D9%88-%D8%AD%D9%84%D9%88%D8%A7%DB%8C%DB%8C-%DA%A9%D9%87%DB%8C-%D9%BE%D9%84%D8%A7-%DA%A9%D8%A6%DB%8C-%D9%BE%D9%84%D8%A7-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D8%B5%D9%84%DB%8C-%D8%B9%DA%A9%D8%B3.jpg -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+    ! download failed: https://cookpad.com//ir/step_attachment/images/c4f8825274df8014?image_region_id=56 -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+    ! download failed: https://cookpad.com//ir/step_attachment/images/2caaf066efbcd62b?image_region_id=56 -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+    ! download failed: https://cookpad.com//ir/step_attachment/images/c921d4dfb5fea494?image_region_id=56 -> ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
     + saved: 985_5_پلو کدو حلوایی__4 مرحله.webp
 
 - Title: بئادونه بهار دونه (id=986)
@@ -9266,147 +9266,147 @@
 - Title: فالوده شیرازی (id=1177)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/07/فالوده.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/فالوده.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/%D9%81%D8%A7%D9%84%D9%88%D8%AF%D9%87.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/فالوده.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/%D9%81%D8%A7%D9%84%D9%88%D8%AF%D9%87.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: پلو اسفندی (id=1178)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/07/20240701_234246_1893602585.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/20240701_234246_1893602585.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/20240701_234246_1893602585.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/20240701_234246_1893602585.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/20240701_234246_1893602585.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: ترحلوا شیرازی (id=1179)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2021/04/tar-halva.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/04/tar-halva.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/04/tar-halva.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/04/tar-halva.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/04/tar-halva.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: حلوا کاسه شیرازی (id=1180)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2021/05/halva-shirazi.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/05/halva-shirazi.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/05/halva-shirazi.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/05/halva-shirazi.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/05/halva-shirazi.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: حلوای شیر زعفرانی (id=1181)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2018/05/حلوای-شیر.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2018/05/حلوای-شیر.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2018/05/%D8%AD%D9%84%D9%88%D8%A7%DB%8C-%D8%B4%DB%8C%D8%B1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2018/05/حلوای-شیر.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2018/05/%D8%AD%D9%84%D9%88%D8%A7%DB%8C-%D8%B4%DB%8C%D8%B1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: مسقطی لاری زعفرانی (id=1182)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2021/04/مسقطی-لاری.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/04/مسقطی-لاری.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/04/%D9%85%D8%B3%D9%82%D8%B7%DB%8C-%D9%84%D8%A7%D8%B1%DB%8C.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/04/مسقطی-لاری.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/04/%D9%85%D8%B3%D9%82%D8%B7%DB%8C-%D9%84%D8%A7%D8%B1%DB%8C.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: مربای بهار نارنج (id=1183)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/06/مربایبهارنارنج.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/06/مربایبهارنارنج.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/06/%D9%85%D8%B1%D8%A8%D8%A7%DB%8C%D8%A8%D9%87%D8%A7%D8%B1%D9%86%D8%A7%D8%B1%D9%86%D8%AC.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/06/مربایبهارنارنج.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/06/%D9%85%D8%B1%D8%A8%D8%A7%DB%8C%D8%A8%D9%87%D8%A7%D8%B1%D9%86%D8%A7%D8%B1%D9%86%D8%AC.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: طرز تهیه حلیم بادمجان شیرازی (id=1184)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/07/حلیم-بادمجان-1.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/حلیم-بادمجان-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/%D8%AD%D9%84%DB%8C%D9%85-%D8%A8%D8%A7%D8%AF%D9%85%D8%AC%D8%A7%D9%86-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/حلیم-بادمجان-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/%D8%AD%D9%84%DB%8C%D9%85-%D8%A8%D8%A7%D8%AF%D9%85%D8%AC%D8%A7%D9%86-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: طرز تهیه لوبیا پلو شیرازی با لوبیا چشم بلبلی (id=1185)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/07/loobia-polo-ba-cheshm-bolboli.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/loobia-polo-ba-cheshm-bolboli.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/loobia-polo-ba-cheshm-bolboli.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/07/loobia-polo-ba-cheshm-bolboli.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/07/loobia-polo-ba-cheshm-bolboli.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: کلم پلو شیرازی (id=1186)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2021/04/EVH6bAYXgAACW0M-jpeg.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/04/EVH6bAYXgAACW0M-jpeg.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/04/EVH6bAYXgAACW0M-jpeg.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/04/EVH6bAYXgAACW0M-jpeg.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/04/EVH6bAYXgAACW0M-jpeg.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: شکر پلو (id=1187)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2022/12/shekarpolo-kentaltravel2-1024x683-1.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/12/shekarpolo-kentaltravel2-1024x683-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/12/shekarpolo-kentaltravel2-1024x683-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/12/shekarpolo-kentaltravel2-1024x683-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/12/shekarpolo-kentaltravel2-1024x683-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: انار پلو شیرازی (id=1188)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/10/269716891_579584699806128_3636094333985185341_n.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/10/269716891_579584699806128_3636094333985185341_n.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/10/269716891_579584699806128_3636094333985185341_n.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/10/269716891_579584699806128_3636094333985185341_n.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/10/269716891_579584699806128_3636094333985185341_n.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: کوفته سبزی (id=1189)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2022/04/KOOFTE-ASLI.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/04/KOOFTE-ASLI.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/04/KOOFTE-ASLI.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/04/KOOFTE-ASLI.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/04/KOOFTE-ASLI.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: کتلت شیرازی (id=1190)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2022/10/b21c6c65-0dfe-46e8-ab32-5d0ed9a412cc.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/10/b21c6c65-0dfe-46e8-ab32-5d0ed9a412cc.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/10/b21c6c65-0dfe-46e8-ab32-5d0ed9a412cc.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/10/b21c6c65-0dfe-46e8-ab32-5d0ed9a412cc.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/10/b21c6c65-0dfe-46e8-ab32-5d0ed9a412cc.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: کوفته هلو (id=1191)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2022/03/کوفته-هلو.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/03/کوفته-هلو.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/03/%DA%A9%D9%88%D9%81%D8%AA%D9%87-%D9%87%D9%84%D9%88.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/03/کوفته-هلو.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/03/%DA%A9%D9%88%D9%81%D8%AA%D9%87-%D9%87%D9%84%D9%88.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: رب پلو شیرازی (id=1192)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2023/12/355-2.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/12/355-2.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/12/355-2.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/12/355-2.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/12/355-2.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: آبگوشت یخنی نخود (id=1193)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/06/آبگوشت-يخني-نخود-شيرازي1.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/06/آبگوشت-يخني-نخود-شيرازي1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/06/%D8%A2%D8%A8%DA%AF%D9%88%D8%B4%D8%AA-%D9%8A%D8%AE%D9%86%D9%8A-%D9%86%D8%AE%D9%88%D8%AF-%D8%B4%D9%8A%D8%B1%D8%A7%D8%B2%D9%8A1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/06/آبگوشت-يخني-نخود-شيرازي1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/06/%D8%A2%D8%A8%DA%AF%D9%88%D8%B4%D8%AA-%D9%8A%D8%AE%D9%86%D9%8A-%D9%86%D8%AE%D9%88%D8%AF-%D8%B4%D9%8A%D8%B1%D8%A7%D8%B2%D9%8A1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: مشته بادمجان (id=1194)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2024/01/Eggplant-stew-with-meat-700x780-1.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/01/Eggplant-stew-with-meat-700x780-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/01/Eggplant-stew-with-meat-700x780-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2024/01/Eggplant-stew-with-meat-700x780-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2024/01/Eggplant-stew-with-meat-700x780-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: قنبر پلو یا غمبر پلو شیرازی (id=1195)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2020/08/قنبرپلو-شیرازی.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2020/08/قنبرپلو-شیرازی.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2020/08/%D9%82%D9%86%D8%A8%D8%B1%D9%BE%D9%84%D9%88-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2%DB%8C.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2020/08/قنبرپلو-شیرازی.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2020/08/%D9%82%D9%86%D8%A8%D8%B1%D9%BE%D9%84%D9%88-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2%DB%8C.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: آش انار شیرازی (id=1196)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2023/12/34.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/12/34.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/12/34.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/12/34.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/12/34.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: آش کارده (id=1197)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2023/11/2985579_507.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/11/2985579_507.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/11/2985579_507.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/11/2985579_507.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/11/2985579_507.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: دو پیازه آلو (id=1198)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2023/10/4121fa0a-789c-4d40-a120-6d16d4da8f43.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/10/4121fa0a-789c-4d40-a120-6d16d4da8f43.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/10/4121fa0a-789c-4d40-a120-6d16d4da8f43.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2023/10/4121fa0a-789c-4d40-a120-6d16d4da8f43.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2023/10/4121fa0a-789c-4d40-a120-6d16d4da8f43.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: آش سبزی شیرازی (id=1199)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2020/01/ashe-sabzi-featured.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2020/01/ashe-sabzi-featured.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2020/01/ashe-sabzi-featured.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2020/01/ashe-sabzi-featured.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2020/01/ashe-sabzi-featured.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: انواع دلمه (id=1200)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2022/06/0c64ec99-0de3-4249-8f5d-51d711b79452.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/06/0c64ec99-0de3-4249-8f5d-51d711b79452.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/06/0c64ec99-0de3-4249-8f5d-51d711b79452.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/06/0c64ec99-0de3-4249-8f5d-51d711b79452.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/06/0c64ec99-0de3-4249-8f5d-51d711b79452.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: خورش به قورمه (id=1201)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2022/03/w.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/03/w.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/03/w.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/03/w.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/03/w.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: هویج پلو با مرغ (id=1202)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2025/02/carrot-rice-recipe-with-shredded-chicken-1-1024x887-1.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2025/02/carrot-rice-recipe-with-shredded-chicken-1-1024x887-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2025/02/carrot-rice-recipe-with-shredded-chicken-1-1024x887-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2025/02/carrot-rice-recipe-with-shredded-chicken-1-1024x887-1.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2025/02/carrot-rice-recipe-with-shredded-chicken-1-1024x887-1.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: سالاد شیرازی (id=1203)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2021/05/salad-shirazi-min.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/05/salad-shirazi-min.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/05/salad-shirazi-min.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2021/05/salad-shirazi-min.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2021/05/salad-shirazi-min.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: شیرین پلو با گوشت قلقلی (id=1204)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2025/02/ashpaz.banooo_118998832_196008515257396_415874140148039038_n.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2025/02/ashpaz.banooo_118998832_196008515257396_415874140148039038_n.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2025/02/ashpaz.banooo_118998832_196008515257396_415874140148039038_n.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2025/02/ashpaz.banooo_118998832_196008515257396_415874140148039038_n.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2025/02/ashpaz.banooo_118998832_196008515257396_415874140148039038_n.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: شربت بهار نارنج (id=1205)
   images:
     • تصویر نهایی: https://blog.okcs.com/wp-content/uploads/2022/05/fwwww.jpg
-    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/05/fwwww.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/05/fwwww.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+    ! download failed: https://blog.okcs.com/wp-content/uploads/2022/05/fwwww.jpg -> HTTPSConnectionPool(host='blog.okcs.com', port=443): Max retries exceeded with url: /wp-content/uploads/2022/05/fwwww.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)')))
 
 - Title: ماهی موفلک (ماهی شور) (id=1206)
   images:
@@ -14596,7 +14596,7 @@
     • final_image: https://ghazaland.com/wp-content/uploads/2018/01/آش-آلو-ترش-زنجان.jpg
     + saved: 2155_1_آش آلو ترش__final_image.jpg
 
-Manifest written: images\manifest.json  (items: 4264)
+Manifest written: images/manifest.json  (items: 4277)
 
-Done. Found URLs: 4340, Saved: 2895, Errors: 76
+Done. Found URLs: 4340, Saved: 2908, Errors: 63
 Logs: fetch-images.logs  |  Failures: failures.logs

@@ -1,13 +1,27 @@
 import os
+import re
 from PIL import Image, ImageOps, UnidentifiedImageError
 
-input_root = "./../images"
-output_root = "./"
+input_root = "./images"
+output_root = "./processed"
 
 allowed_ext = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
 target_size = (224, 224)
 
 os.makedirs(output_root, exist_ok=True)
+
+def clean_filename(filename):
+    cleaned = re.sub(r'\s+', '_', filename)
+    
+    cleaned = re.sub(r'[<>:"/\\|?*]', '', cleaned)
+
+    cleaned = re.sub(r'[\x00-\x1f\x7f-\x9f]', '', cleaned)
+    
+    cleaned = re.sub(r'_+', '_', cleaned)
+    
+    cleaned = cleaned.strip('_')
+    
+    return cleaned
 
 def center_crop_to_square(img):
     w, h = img.size
@@ -36,8 +50,13 @@ for root, _, files in os.walk(input_root):
             print(f"⏭️ Skipped (non-image): {fname}")
             continue
 
-        if base in saved_names:
-            print(f"⏭️ Skipped duplicate name: {base}")
+        cleaned_base = clean_filename(base)
+        if not cleaned_base:
+            cleaned_base = "unnamed"
+            print(f"⚠️ Empty filename after cleaning, using 'unnamed': {fname}")
+
+        if cleaned_base in saved_names:
+            print(f"⏭️ Skipped duplicate name: {cleaned_base}")
             continue
 
         try:
@@ -51,10 +70,10 @@ for root, _, files in os.walk(input_root):
                 im = im.resize(target_size, resample=resample)
                 im = ensure_rgb(im)
 
-                out_path = os.path.join(out_dir, f"{base}.jpg")
+                out_path = os.path.join(out_dir, f"{cleaned_base}.jpg")
                 im.save(out_path, "JPEG", quality=90, optimize=True, subsampling="medium")
 
-                saved_names.add(base)
+                saved_names.add(cleaned_base)
                 print(f"✅ Processed: {src} -> {out_path}")
 
         except (UnidentifiedImageError, OSError) as e:
