@@ -1,47 +1,34 @@
-#!/usr/bin/env python3
-"""
-اسکریپت ساده برای جستجو در میانگین embedding ها
-"""
-
 import sys
 import os
 from pathlib import Path
 
-# Add current directory to Python path
 current_dir = Path(__file__).parent
 sys.path.insert(0, str(current_dir))
 
-# Add parent directories to path
 image_encoder_path = current_dir.parent / "image_encoder"
 text_encoder_path = current_dir.parent / "text_encoder"
 sys.path.insert(0, str(image_encoder_path))
 sys.path.insert(0, str(text_encoder_path))
 
-# Import modules
 import emb as image_emb
 import emb_text as text_emb
 import numpy as np
 import chromadb
 
-# Configuration
 CHROMA_HOST = "localhost"
 CHROMA_PORT = 8000
 COLLECTION_NAME = "combined_embeddings"
 IMAGES_DIR = "../processed_images"
 
 def get_collection():
-    """Get collection"""
     client = chromadb.HttpClient(host=CHROMA_HOST, port=CHROMA_PORT)
     return client.get_or_create_collection(name=COLLECTION_NAME)
 
 def search_text(query, top_k=5):
-    """Search by text"""
     print(f"🔍 Searching by text: '{query}'")
     
-    # Encode query
     query_emb = text_emb.encode_text(query)
     
-    # Search
     col = get_collection()
     results = col.query(
         query_embeddings=[query_emb.tolist()],
@@ -52,13 +39,10 @@ def search_text(query, top_k=5):
     display_results(results, "text")
 
 def search_image(image_path, top_k=5):
-    """Search by image"""
     print(f"🔍 Searching by image: {image_path}")
     
-    # Encode query
     query_emb = image_emb.encode_image(image_path)
     
-    # Search
     col = get_collection()
     results = col.query(
         query_embeddings=[query_emb.tolist()],
@@ -69,18 +53,14 @@ def search_image(image_path, top_k=5):
     display_results(results, "image")
 
 def search_combined(image_path, query_text, top_k=5):
-    """Search by both image and text"""
     print(f"🔍 Searching by combined: image='{image_path}', text='{query_text}'")
     
-    # Encode both
     image_embedding = image_emb.encode_image(image_path)
     text_embedding = text_emb.encode_text(query_text)
     
-    # Average
     combined = (image_embedding + text_embedding) / 2
     combined = combined / np.linalg.norm(combined)
     
-    # Search
     col = get_collection()
     results = col.query(
         query_embeddings=[combined.tolist()],
@@ -91,7 +71,6 @@ def search_combined(image_path, query_text, top_k=5):
     display_results(results, "combined")
 
 def display_results(results, search_type):
-    """Display results"""
     ids = results.get("ids", [[]])[0]
     distances = results.get("distances", [[]])[0]
     metadatas = results.get("metadatas", [[]])[0]
@@ -111,7 +90,6 @@ def display_results(results, search_type):
         print()
 
 def show_info():
-    """Show collection info"""
     col = get_collection()
     count = col.count()
     print(f"📊 Collection '{COLLECTION_NAME}': {count} items")
@@ -124,7 +102,6 @@ def show_info():
             print(f"  - {dish_id}: {meta.get('title', 'N/A')}")
 
 def usage():
-    """Show usage"""
     print("Usage:")
     print("  python run_search.py text <query> [top_k]")
     print("  python run_search.py image <image_path> [top_k]")
@@ -137,7 +114,6 @@ def usage():
     print("  python run_search.py combined ../processed_images/6_1_قیقاناخ__2.jpg 'دسر' 5")
 
 def main():
-    """Main function"""
     if len(sys.argv) < 2:
         usage()
         return

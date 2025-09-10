@@ -1,4 +1,3 @@
-# clear_combined.py
 import chromadb
 
 CHROMA_HOST = "localhost"
@@ -6,7 +5,6 @@ CHROMA_PORT = 8000
 COLLECTION_NAME = "combined_embeddings"
 
 def main():
-    """Clear the combined embeddings collection"""
     client = chromadb.HttpClient(host=CHROMA_HOST, port=CHROMA_PORT)
     
     try:
@@ -15,7 +13,6 @@ def main():
     except Exception as e:
         print(f"⚠️  Delete failed (maybe collection doesn't exist): {e}")
 
-    # Re-create empty collection
     client.get_or_create_collection(
         name=COLLECTION_NAME,
         metadata={"hnsw:space": "cosine"}
