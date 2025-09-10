@@ -27,7 +27,7 @@ import chromadb
 CHROMA_HOST = "localhost"
 CHROMA_PORT = 8000
 COLLECTION_NAME = "combined_embeddings"
-IMAGES_DIR = "../processed_images/processed"
+IMAGES_DIR = "../processed_images"
 
 def get_collection():
     """Get collection"""
