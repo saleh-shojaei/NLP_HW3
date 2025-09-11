@@ -269,7 +269,7 @@ def main():
     # rag = AdvancedRAGSystem(llm_provider="openai", api_key="your-api-key")
 
     # برای استفاده از Ollama (محلی)
-    rag = AdvancedRAGSystem(llm_provider="openAI", api_key='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')
+    rag = AdvancedRAGSystem(llm_provider="openAI", api_key='')
     
     # Example queries
     examples = [
