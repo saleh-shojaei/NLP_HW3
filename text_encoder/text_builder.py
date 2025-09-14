@@ -65,7 +65,7 @@ def build_text_from_item(item: Dict[str, Any]) -> str:
             # اگر شماره‌گذاری اولش هست (مثل "۱." یا "1." یا "۱)"…), حذف کن تا خودمان شماره‌گذاری کنیم
             st = re.sub(r"^\s*[\d۱۲۳۴۵۶۷۸۹0]+\s*[\.\)\-ـ]\s*", "", st)
             inst_lines.append(f"{idx}) {st}")
-    inst_str = _join_list_inline(inst_lines, sep="؛ ")
+    inst_str = _join_list_inline(inst_lines, sep=" ")
 
     # مونتاژ نهایی (یک رشته‌ی یک‌تکه)
     sections = []
@@ -76,12 +76,12 @@ def build_text_from_item(item: Dict[str, Any]) -> str:
     if province:
         header_parts.append(f"استان: {province}")
     if header_parts:
-        sections.append(" | ".join(header_parts))
+        sections.append(" ".join(header_parts))
 
     if ing_str:
-        sections.append(f"مواد لازم: {ing_str}")
+        sections.append(f"مواد لازم: {ing_str} ")
     if inst_str:
-        sections.append(f"دستور پخت: {inst_str}")
+        sections.append(f"دستور پخت: {inst_str} ")
 
     final_text = " \n".join(sections).strip()
     return final_text
